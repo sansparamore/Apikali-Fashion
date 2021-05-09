@@ -1,0 +1,153 @@
+/* Big tablet to 1240px (widths smaller than the 1140px row) */
+
+@media only screen and (max-width: 1241px) {
+    .hot-box .apply p {
+        margin: 10px;
+        font-size: 100%;
+    }
+    .hot-box h2{
+        margin: 5%;
+        font-size: 370%;
+    }
+    footer h1 {
+        
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+}
+
+/* Medium tablet to 1026px (widths smaller than the 1240px row) */
+
+@media only screen and (max-width: 1026px) {
+    .hot-box .apply p {
+        margin: 10px;
+        font-size: 100%;
+    }
+    .hot-box h2{
+        margin: 5%;
+        font-size: 350%;
+    }
+}
+
+/* Medium tablet to 988px (widths smaller than the 1240px row) */
+
+@media only screen and (max-width: 987px) {
+    header .main-nav {
+        font-size: 80%;
+        margin: 10px;
+    }
+    .hot-box h2{
+        margin: 5%;
+        font-size: 300%;}
+    footer h1 {
+        font-size: 150%;
+    }
+    .sign-up h2{
+        margin: 5%;
+        font-size: 350%;
+    }
+    .sign-up p{
+        font-size: 100%;
+    }
+}
+    
+/* Medium tablet to 844px (widths smaller than the 1240px row) */
+
+@media only screen and (max-width: 843px) {
+    .hot-box h2{
+        margin: 5%;
+        font-size: 250%;
+    }
+    header .main-nav {
+        font-size: 70%;
+        margin: 2px;
+    }
+    .styles p {
+        font-size: 80%;
+    }
+    footer .main-nav {
+    width:80%;
+    margin-left: 10%;
+}
+}
+
+/* Medium tablet to 728px (widths smaller than the 1240px row) */
+
+@media only screen and (max-width: 727px) {
+    header .main-nav li,
+    footer .main-nav li{
+        margin: 0 2px;
+    }
+    .hot-box h2,
+    .apply h2 {
+        margin: 5%;
+        font-size: 200%;}
+    footer h1 {
+        font-size: 150%;
+    }
+    .btn {
+        font-size: 80%;
+    }
+    .styles p {
+        font-size: 60%;
+    }
+    footer .main-nav {
+    width:90%;
+    margin-left: 5%;}
+.social {
+        font-size: 100%;
+    }
+}
+
+    
+
+
+/* Medium tablet to 668px (widths smaller than the 1240px row) */
+
+@media only screen and (max-width: 667px) {
+    header .main-nav {
+        font-size: 60%;
+        margin: 2x;
+    }
+    footer h1 {
+        font-weight: 300;
+        
+    }
+    footer .main-nav {
+    width:98%;
+    margin-left: 1%;
+}
+    .image-box {
+        width: 
+    }
+    
+}
+
+
+/* Medium tablet to 600px (widths smaller than the 1240px row) */
+
+@media only screen and (max-width: 599px) {
+    .image-box {
+        width:45%; 
+    }
+    
+    h2 {
+        font-size: 100%;
+        margin: 1
+    }
+    
+    .hot-box p,
+    .hot-box a {
+        font-size: 70%;
+        margin: 0;
+    }
+    
+    .hot-box {
+        display: flex;
+    }
+    .main-nav li{
+        display: block;}
+        .js--main-nav {}
+    }
+    
+}

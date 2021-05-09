@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #222;
+    box-sizing: border-box;
+}
+
+
+/*---------HEADER------------*/
+
+header {
+   /*background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(img.jpg);
+    background-size
+    background-position: center;
+    background-attachment: fixed;*/
+}
+h1 {
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.main-nav {
+    display: flex;
+    margin: 20px;
+}
+
+.main-nav > div {
+    flex: 1;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.cart {
+    text-align: right;
+}
+
+.mobile-nav {
+    display: none;
+    cursor: pointer;
+}
+/*---------SECTION HOT------------*/
+
+.hot-box{
+    background-color: rgba(10, 8, 8, 0.98);
+    display: flex;
+}
+
+.hot-box div {
+    width: 50%;
+    height: auto;
+}
+
+.hot img {
+    height: 100%;
+    width: 100%;
+}
+
+.apply {
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+
+.apply h2{
+    font-weight: 100;
+    font-size: 400%;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin: 10%;
+    text-transform: uppercase;
+}
+
+.apply p {
+    color: #2ecc71;
+    font-size: 150%;
+    margin: 20px;
+}
+
+.apply .btn {
+   
+    border: 2px solid #c0392b;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 2s;
+
+}
+
+
+/*---------SECTION STYLES------------*/
+
+.styles {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.style-gallery {
+    position: relative;
+}
+
+.image-box {
+    display: inline-block;
+    padding: 2%;
+    width: 20%; 
+}
+
+.image-box p {
+    opacity: 1;
+    color: #555;
+    text-align: center;
+    font-size: 80%;
+    
+}
+span {
+    color: #2ecc71;
+}
+.image-box{
+    transition: 2s;
+}
+.image-box:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+    
+}
+
+.image-box img {
+    border-radius: 2%;
+    height: 100%;
+    width: 100%;
+}
+
+/*---------SECTION SIGN UP------------*/
+.sign-up {
+    margin: 5%;
+    
+}
+.sign-up h2 {
+    color: #333;
+    margin: 5%;
+}
+
+.sign-up .btn {
+    background-color: #c0392b;
+    transition: 2s;
+}
+ .btn:hover {
+    background-color: #d3483a;
+     
+}
+
+
+/*---------FOOTER------------*/
+footer{
+    background-color: rgba(220, 240, 255, 0.2);
+    font-size: 80%;padding: 10px 0;
+}
+
+.social {
+    text-align: right;
+    font-size: 150%;
+}
+
+footer a:hover {
+    color: #555;
+}
+
+footer .main-nav {
+    width: 70%;
+    margin-left: 15%;
+}
+.list li {
+    display: block;
+    line-height: 200%;
+}
+
+footer .main-nav:last-of-type {
+    margin-bottom: 0;
+    margin-top: 
+}
+
+
+/**************#
+
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.box {
+    width: 200px;
+    height: 240px;
+    box-sizing: border-box;
+    background-color: #fcffe8;
+    float: left;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.box p {
+    font-size: 12px;
+    width: 200px;
+    line-height: 18px;
+    margin: 0;
+    border-bottom: 2px;
+    text-align: center;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
